@@ -7,6 +7,7 @@ public:
                 return false;
             }
             maxIndex=max(maxIndex,i+nums[i]);
+            if(maxIndex==nums.size()-1) return true;
         }
         return true;
     }
